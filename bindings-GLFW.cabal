@@ -198,7 +198,7 @@ library
         glfw/src/wgl_context.c
       extra-libraries:
         opengl32
-        Gdi32
+        gdi32
       cc-options: -D_GLFW_WIN32
 
   if flag(ExposeNative)
